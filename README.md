@@ -1,6 +1,5 @@
 # PHP csv reader and writer.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/tleckie/csv?style=flat-square)](https://packagist.org/packages/tleckie/csv)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/teodoroleckie/csv/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/teodoroleckie/csv/?branch=main)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/teodoroleckie/csv/badges/code-intelligence.svg?b=main)](https://scrutinizer-ci.com/code-intelligence)
 [![Build Status](https://scrutinizer-ci.com/g/teodoroleckie/csv/badges/build.png?b=main)](https://scrutinizer-ci.com/g/teodoroleckie/csv/build-status/main)
