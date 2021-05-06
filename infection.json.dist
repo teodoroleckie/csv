@@ -1,0 +1,27 @@
+{
+  "source": {
+    "directories": [
+      "./src"
+    ],
+    "excludes": [
+      "./vendor/"
+    ]
+  },
+  "phpUnit": {
+    "configDir": ".\/tests\/",
+    "customPath": ".\/bin\/phpunit"
+  },
+  "logs": {
+    "text": ".\/infection-report"
+  },
+  "mutators": {
+    "@default": true,
+    "BitwiseOr": {
+        "ignore": [
+            "Tleckie\\Csv\\Reader::__construct"
+        ]
+    }
+  },
+  "testFramework":"phpunit",
+  "bootstrap": "./vendor/autoload.php"
+}
