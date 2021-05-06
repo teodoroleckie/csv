@@ -37,7 +37,7 @@ class Writer extends CsvAbstract implements WriterInterface
     public function writeLine(RowInterface|array $row): bool
     {
         return $this->fputcsv(
-            $row instanceof Row ? $row->toArray() : $row
+            $row instanceof RowInterface ? $row->toArray() : $row
         );
     }
 }
